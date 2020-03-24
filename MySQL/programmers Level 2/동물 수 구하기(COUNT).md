@@ -1,4 +1,4 @@
-### >> 문제: programmers L1 [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)
+### >> 문제: programmers L2 [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)
 **동물 보호소에 동물이 몇 마리 들어왔는지 조회하는 SQL 문을 작성해주세요.**
 
 * ANIMAL_INS 테이블의 구조  
