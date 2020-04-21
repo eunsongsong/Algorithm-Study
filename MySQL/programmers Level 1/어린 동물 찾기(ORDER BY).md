@@ -1,6 +1,7 @@
 ### >> 문제: programmers L1 [어린 동물 찾기](https://programmers.co.kr/learn/courses/30/lessons/59037)
 **동물 보호소에 들어온 동물 중 젊은 동물1의 아이디와 이름을 조회하는 SQL 문을 작성해주세요.  
-이때, 결과는 아이디 순으로 조회해주세요.**
+이때, 결과는 아이디 순으로 조회해주세요.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -24,7 +25,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |A365302|Dog|2017-01-08 16:34:00|Aged|Minnie|Spayed Female|
 |A381217|Dog|2017-07-08 09:41:00|Sick|Cherokee|Neutered Male|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS

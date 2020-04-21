@@ -1,6 +1,7 @@
 ### >> 문제: programmers L1 [이름이 있는 동물의 아이디](https://programmers.co.kr/learn/courses/30/lessons/59407)
 **동물 보호소에 들어온 동물 중, 이름이 있는 동물의 ID를 조회하는 SQL 문을 작성해주세요.  
-단, ID는 오름차순 정렬되어야 합니다.**
+단, ID는 오름차순 정렬되어야 합니다.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -24,7 +25,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |A524634|Dog|2015-01-02 18:54:00|Normal|*Belle|Intact|Female|
 |A465637|Dog|2017-06-04 08:17:00|Injured|*Commander|Neutered|Male|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT ANIMAL_ID
 FROM ANIMAL_INS

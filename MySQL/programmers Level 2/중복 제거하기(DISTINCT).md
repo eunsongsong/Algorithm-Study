@@ -1,6 +1,7 @@
 ### >> 문제: programmers L2 [중복 제거하기](https://programmers.co.kr/learn/courses/30/lessons/59408)
 **동물 보호소에 들어온 동물의 이름은 몇 개인지 조회하는 SQL 문을 작성해주세요.  
-이때, 이름이 NULL인 경우는 집계하지 않으며 중복되는 이름은 하나로 칩니다.**
+이때, 이름이 NULL인 경우는 집계하지 않으며 중복되는 이름은 하나로 칩니다.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -24,7 +25,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |A563492|Dog|2014-10-24 14:45:00|Normal|*Sam|Neutered|Male|
 |A513956|Dog|2017-06-14 11:54:00|Normal|*Sweetie|Spayed|Female|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT COUNT(DISTINCT(NAME)) as "count"
 FROM ANIMAL_INS

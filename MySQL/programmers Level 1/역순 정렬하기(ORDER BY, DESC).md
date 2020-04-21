@@ -1,6 +1,7 @@
 ### >> 문제: programmers L1 [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035)
 **동물 보호소에 들어온 모든 동물의 이름과 보호 시작일을 조회하는 SQL문을 작성해주세요.  
-이때, 결과는 ANIMAL_ID 역순으로 보여주세요.**
+이때, 결과는 ANIMAL_ID 역순으로 보여주세요.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -15,7 +16,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |NAME|VARCHAR(N)|TRUE|
 |SEX_UPON_INTAKE|VARCHAR(n)|FALSE|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT NAME, DATETIME
 FROM ANIMAL_INS

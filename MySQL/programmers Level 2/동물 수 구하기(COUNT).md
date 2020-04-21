@@ -1,5 +1,6 @@
 ### >> 문제: programmers L2 [동물 수 구하기](https://programmers.co.kr/learn/courses/30/lessons/59406)
-**동물 보호소에 동물이 몇 마리 들어왔는지 조회하는 SQL 문을 작성해주세요.**
+**동물 보호소에 동물이 몇 마리 들어왔는지 조회하는 SQL 문을 작성해주세요.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -23,7 +24,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |A370852|Dog|2013-11-03 15:04:00|Normal|Katie|Spayed|Female|
 |A403564|Dog|2013-11-18 17:03:00|Normal|Anna|Spayed|Female|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT COUNT(ANIMAL_ID) as "count"
 FROM ANIMAL_INS

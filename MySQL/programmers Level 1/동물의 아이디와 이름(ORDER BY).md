@@ -1,5 +1,6 @@
 ### >> 문제: programmers L1 [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403)
-**동동물 보호소에 들어온 모든 동물의 아이디와 이름을 ANIMAL_ID순으로 조회하는 SQL문을 작성해주세요.**
+**동동물 보호소에 들어온 모든 동물의 아이디와 이름을 ANIMAL_ID순으로 조회하는 SQL문을 작성해주세요.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -14,7 +15,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |NAME|VARCHAR(N)|TRUE|
 |SEX_UPON_INTAKE|VARCHAR(n)|FALSE|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT ANIMAL_ID, NAME
 FROM ANIMAL_INS

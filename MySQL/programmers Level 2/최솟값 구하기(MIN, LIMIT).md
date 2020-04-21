@@ -1,5 +1,6 @@
 ### >> 문제: programmers L2 [최솟값 구하기](https://programmers.co.kr/learn/courses/30/lessons/59038)
-**동물 보호소에 가장 먼저 들어온 동물은 언제 들어왔는지 조회하는 SQL 문을 작성해주세요.**
+**동물 보호소에 가장 먼저 들어온 동물은 언제 들어왔는지 조회하는 SQL 문을 작성해주세요.**   
+*출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
 ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각각  
@@ -22,7 +23,7 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 |A379998|Dog|2013-10-23 11:42:00|Normal|Disciple|Intact|Male|
 |A370852|Dog|2013-11-03 15:04:00|Normal|Katie|Spayed|Female|
 
-### >> 정답
+### >> 풀이
 ```sql
 SELECT DATETIME as "시간"
 FROM ANIMAL_INS
