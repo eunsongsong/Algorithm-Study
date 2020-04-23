@@ -79,8 +79,8 @@ print(s.endswith("d",1,4))
 import itertools
 items = ['A', 'B', 'C', 'D'] 
 
-print('순열 : ', list(map(''.join, itertools.permutations(items, 2))))
-print('조합 : ', list(map(''.join, itertools.combinations(items, 2))))
+print('순열: ', list(map(''.join, itertools.permutations(items, 2))))
+print('조합: ', list(map(''.join, itertools.combinations(items, 2))))
 ```
 > 순열 :  ['AB', 'AC', 'AD', 'BA', 'BC', 'BD', 'CA', 'CB', 'CD', 'DA', 'DB', 'DC']  
 > 조합 :  ['AB', 'AC', 'AD', 'BC', 'BD', 'CD']
