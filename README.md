@@ -1,9 +1,12 @@
 # 알고리즘 문제풀이 공부
 ## 언어
-Python, JAVA, MySQL  
+Python, Java, MySQL  
 ## version
-java version "1.8.0_251"  
-Python 3.7.1
+Python 3.7.1  
+Java JDK 1.8.0_201  
+## IDE
+Python Jupyter Notebook  
+Java Eclipse
 ## 문제 출처
 * [프로그래머스](https://programmers.co.kr/learn/challenges)
 ## 진행상황
