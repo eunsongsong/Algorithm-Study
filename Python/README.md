@@ -79,11 +79,13 @@ print(s.endswith("d",1,4))
 import itertools
 items = ['A', 'B', 'C', 'D'] 
 
-print('순열: ', list(map(''.join, itertools.permutations(items, 2))))
-print('조합: ', list(map(''.join, itertools.combinations(items, 2))))
+print('순열: ', list(map(''.join, itertools.permutations(items, 2))))  
+print('조합(문자열) : ', list(map(''.join, itertools.combinations(items, 2))))  
+print('조합(리스트) : ', list(itertools.combinations(items, 2)))  
 ```
 > 순열 :  ['AB', 'AC', 'AD', 'BA', 'BC', 'BD', 'CA', 'CB', 'CD', 'DA', 'DB', 'DC']  
-> 조합 :  ['AB', 'AC', 'AD', 'BC', 'BD', 'CD']
+> 조합(문자열) :  ['AB', 'AC', 'AD', 'BC', 'BD', 'CD']  
+> 조합(리스트) :  [('A', 'B'), ('A', 'C'), ('A', 'D'), ('B', 'C'), ('B', 'D'), ('C', 'D')]  
 
 
 
@@ -160,10 +162,10 @@ print(' '.join(sorted((map(str, numbers)), key=lambda x:x*2))) # 2자리수까�
 print(' '.join(sorted((map(str, numbers)), key=lambda x:x*3))) # 3자리수까지 맞춤
 print(' '.join(sorted((map(str, numbers)), key=lambda x:x*4))) # 4자리수까지 맞춤
 ```
-> 1 10 100 101 11 110 1101 111 1110 1111
-> 100 10 101 1 110 1101 1110 11 111 1111
-> 100 10 101 110 1101 1 1110 11 111 1111
-> 100 10 101 110 1101 1110 1 11 111 1111
+> 1 10 100 101 11 110 1101 111 1110 1111  
+> 100 10 101 1 110 1101 1110 11 111 1111  
+> 100 10 101 110 1101 1 1110 11 111 1111  
+> 100 10 101 110 1101 1110 1 11 111 1111  
 
 ### 첫 번째, 두 번째, 세 번째 순으로 정렬 조건을 줄 수 있다
 ```python

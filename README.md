@@ -32,7 +32,7 @@ Java Eclipse
 ### 2019 KAKAO BLIND RECRUITMENT  
 오픈채팅방 | 
 [실패율](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EC%8B%A4%ED%8C%A8%EC%9C%A8(%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC).ipynb) | 
-후보키 | 
+[후보키](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%9B%84%EB%B3%B4%ED%82%A4.ipynb) | 
 무지의 먹방 라이브 | 
 길 찾기 게임 | 
 매칭 점수 | 
@@ -40,7 +40,7 @@ Java Eclipse
 ### 2018 KAKAO BLIND RECRUITMENT [1차]
 [비밀지도](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84(%EC%9D%B4%EC%A7%84%EC%88%98%20%EB%B3%80%ED%99%98%2C%20%EC%9E%90%EB%A6%BF%EC%88%98%20%EB%A7%9E%EC%B6%94%EA%B8%B0).ipynb) | 
 [다트 게임](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EB%8B%A4%ED%8A%B8%20%EA%B2%8C%EC%9E%84(replace%2Cisdigit%2Cdialpha).ipynb) | 
-캐시 | 
+[캐시](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EC%BA%90%EC%8B%9C(%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(LRU)).ipynb) | 
 셔틀버스 | 
 [뉴스 클러스터링](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%89%B4%EC%8A%A4%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81(for%EB%AC%B8%20%EC%95%88%EC%97%90%20if%EB%AC%B8).ipynb) | 
 [프렌즈4블록](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D.ipynb) | 
