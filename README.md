@@ -12,7 +12,7 @@ Java Eclipse
 ## 진행상황
 ### Python
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%201): 완료(39/39)  
-[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%202): 진행중(28/51)  
+[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%202): 진행중(35/51)  
 [programmers Level 3](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%203): 진행중(5/41)  
 ### Java
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%201/src): 진행중(2/39)  
@@ -30,7 +30,7 @@ Java Eclipse
 외벽 점검 | 
 블록 이동하기  
 ### 2019 KAKAO BLIND RECRUITMENT  
-오픈채팅방 | 
+[오픈채팅방](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9.ipynb) | 
 [실패율](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EC%8B%A4%ED%8C%A8%EC%9C%A8(%EB%94%95%EC%85%94%EB%84%88%EB%A6%AC).ipynb) | 
 [후보키](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%9B%84%EB%B3%B4%ED%82%A4.ipynb) | 
 무지의 먹방 라이브 | 
@@ -46,7 +46,11 @@ Java Eclipse
 [프렌즈4블록](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D.ipynb) | 
 추석 트래픽  
 ### 2018 KAKAO BLIND RECRUITMENT [3차]
-N진수 게임 | 압축 | 파일명 정렬 | 방금그곡 | 자동완성  
+[N진수 게임](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/n%EC%A7%84%EC%88%98%20%EA%B2%8C%EC%9E%84.ipynb) | 
+[압축](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EC%95%95%EC%B6%95(startswith).ipynb) | 
+[파일명 정렬](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%8C%8C%EC%9D%BC%EB%AA%85%20%EC%A0%95%EB%A0%AC.ipynb) | 
+[방금그곡](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%B0%A9%EA%B8%88%EA%B7%B8%EA%B3%A1.ipynb) | 
+자동완성  
 ### 2019 카카오 개발자 겨울 인턴십
 [크레인 인형뽑기 게임](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%ED%81%AC%EB%A0%88%EC%9D%B8%20%EC%9D%B8%ED%98%95%EB%BD%91%EA%B8%B0%20%EA%B2%8C%EC%9E%84.ipynb) | 
 [튜플](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%8A%9C%ED%94%8C(%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%AA%BC%EA%B0%9C%EA%B8%B0).ipynb) | 

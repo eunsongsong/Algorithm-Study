@@ -69,23 +69,7 @@ print(s.endswith("d",1,4))
 > False
 > True
 > False
-> True
-
-
-
-# import itertools, 순열, 조합
-
-```python
-import itertools
-items = ['A', 'B', 'C', 'D'] 
-
-print('순열: ', list(map(''.join, itertools.permutations(items, 2))))  
-print('조합(문자열) : ', list(map(''.join, itertools.combinations(items, 2))))  
-print('조합(리스트) : ', list(itertools.combinations(items, 2)))  
-```
-> 순열 :  ['AB', 'AC', 'AD', 'BA', 'BC', 'BD', 'CA', 'CB', 'CD', 'DA', 'DB', 'DC']  
-> 조합(문자열) :  ['AB', 'AC', 'AD', 'BC', 'BD', 'CD']  
-> 조합(리스트) :  [('A', 'B'), ('A', 'C'), ('A', 'D'), ('B', 'C'), ('B', 'D'), ('C', 'D')]  
+> True  
 
 
 
@@ -166,6 +150,18 @@ print(' '.join(sorted((map(str, numbers)), key=lambda x:x*4))) # 4자리수까�
 > 100 10 101 1 110 1101 1110 11 111 1111  
 > 100 10 101 110 1101 1 1110 11 111 1111  
 > 100 10 101 110 1101 1110 1 11 111 1111  
+```python
+numbers = ['0','01','001','0011','0101','011','1','11','111','1111','10','100','101','110','1101','1110']
+
+print(' '.join(sorted(numbers, key=lambda x:x*1))) # 1자리수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*2))) # 2자리수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*3))) # 3자리수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*4))) # 4자리수까지 맞춤
+```
+> 0 001 0011 01 0101 011 1 10 100 101 11 110 1101 111 1110 1111  
+> 0 001 0011 01 0101 011 100 10 101 1 110 1101 1110 11 111 1111  
+> 0 001 0011 01 0101 011 100 10 101 110 1101 1 1110 11 111 1111  
+> 0 001 0011 01 0101 011 100 10 101 110 1101 1110 1 11 111 1111  
 
 ### 첫 번째, 두 번째, 세 번째 순으로 정렬 조건을 줄 수 있다
 ```python
@@ -179,4 +175,65 @@ print(sorted(a, key = lambda x : (x[0], -x[1], x[2])))
 
 
 
-
+# import itertools, 순열, 조합, 곱집합
+```python
+import itertools
+```
+### 순열(permutations)
+```python
+items = ['A', 'B', 'C', 'D'] 
+print(list(map(''.join, itertools.permutations(items, 2))))
+```
+> ['AB', 'AC', 'AD', 'BA', 'BC', 'BD', 'CA', 'CB', 'CD', 'DA', 'DB', 'DC']  
+```python
+items = [['A','B'],['1','2'],['@','#']]
+print(list(itertools.permutations(items, 2)))
+```
+> [(['A', 'B'], ['1', '2']), (['A', 'B'], ['@', '#']), (['1', '2'], ['A', 'B']), (['1', '2'], ['@', '#']), (['@', '#'], ['A', 'B']), (['@', '#'], ['1', '2'])]  
+### 조합(combinations) 
+```python
+items = ['A', 'B', 'C', 'D'] 
+print(list(map(''.join, itertools.combinations(items, 2))))
+```
+> ['AB', 'AC', 'AD', 'BC', 'BD', 'CD']
+```python
+items = [['A','B'],['1','2'],['@','#']]
+print(list(itertools.combinations(items, 2)))
+```
+> [(['A', 'B'], ['1', '2']), (['A', 'B'], ['@', '#']), (['1', '2'], ['@', '#'])]
+### 중복조합(combinations_with_replacement)
+```python
+items = ['A', 'B', 'C', 'D'] 
+print(list(map(''.join, itertools.combinations_with_replacement(items, 2))))
+```
+> ['AA', 'AB', 'AC', 'AD', 'BB', 'BC', 'BD', 'CC', 'CD', 'DD']  
+### 곱집합(product)
+```python
+items = ['A', 'B', 'C', 'D'] 
+print(list(map(''.join, itertools.product(items, repeat=2))))
+print(list(map(''.join, itertools.product(*items))))
+```
+> ['AA', 'AB', 'AC', 'AD', 'BA', 'BB', 'BC', 'BD', 'CA', 'CB', 'CC', 'CD', 'DA', 'DB', 'DC', 'DD']  
+> ['ABCD']  
+```python
+items = [['A','B','C'],['1','2','3'],['@','#','%']]
+print(list(itertools.product(items, repeat=2)))
+print(list(itertools.product(*items)))
+```
+> [(['A', 'B', 'C'], ['A', 'B', 'C']), (['A', 'B', 'C'], ['1', '2', '3']), (['A', 'B', 'C'], ['@', '#', '%']), (['1', '2', '3'], ['A', 'B', 'C']), (['1', '2', '3'], ['1', '2', '3']), (['1', '2', '3'], ['@', '#', '%']), (['@', '#', '%'], ['A', 'B', 'C']), (['@', '#', '%'], ['1', '2', '3']), (['@', '#', '%'], ['@', '#', '%'])]  
+>   
+> [('A', '1', '@'), ('A', '1', '#'), ('A', '1', '%'), ('A', '2', '@'), ('A', '2', '#'), ('A', '2', '%'), ('A', '3', '@'), ('A', '3', '#'), ('A', '3', '%'), ('B', '1', '@'), ('B', '1', '#'), ('B', '1', '%'), ('B', '2', '@'), ('B', '2', '#'), ('B', '2', '%'), ('B', '3', '@'), ('B', '3', '#'), ('B', '3', '%'), ('C', '1', '@'), ('C', '1', '#'), ('C', '1', '%'), ('C', '2', '@'), ('C', '2', '#'), ('C', '2', '%'), ('C', '3', '@'), ('C', '3', '#'), ('C', '3', '%')]  
+```python
+item1 = 'AB' 
+item2 = '12' 
+item3 = '@#' 
+list(itertools.product(item1, item2, item3))
+```
+> [('A', '1', '@'),
+ ('A', '1', '#'),
+ ('A', '2', '@'),
+ ('A', '2', '#'),
+ ('B', '1', '@'),
+ ('B', '1', '#'),
+ ('B', '2', '@'),
+ ('B', '2', '#')]  
