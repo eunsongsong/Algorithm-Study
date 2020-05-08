@@ -6,12 +6,12 @@
 
 # import heapq
 heapq 모듈은 최소 힙(Min Heap) 자료구조를 제공한다
+* **heapq.heapify(x)**:기존 리스트 x를 heap으로 변환  
 * **heapq.heappush(heap,item)**: item 값을 heap으로 push한다
 * **heapq.heappop(heap)**: heap에서 최솟값을 pop한다  
 (heap이 비어 있으면 IndexError 발생)  
 (pop하지 않고 가장 작은 항목에 엑세스하려면 heap[0]을 사용)  
 * **heapq.heappushpop(heap, item)**: heap에 item을 **push한 후**, heap에서 최솟값을 pop한다
-* **heapq.heapify(x)**:기존 리스트 x를 heap으로 변환  
 * **heapq.heapreplace(haep,item)**: heap에서 최솟값을 **pop한 후**, item을 push한다  
 (heap이 비어 있으면 IndexError 발생)
 * **heapq.nlargest(n,iterable,key=None)**:  
@@ -237,3 +237,82 @@ list(itertools.product(item1, item2, item3))
  ('B', '1', '#'),
  ('B', '2', '@'),
  ('B', '2', '#')]  
+
+
+
+# reduce  
+누적 집계를 내기 위해 사용한다  
+reduce(집계 함수, 순회 가능한 데이터, 초기값)  
+```python
+from functools import reduce 
+```
+**ex) reduce()를 사용하여 리스트의 곱을 구할 수 있다**
+```python
+a = [1,2,3,4,5]
+print(reduce(lambda x, y: x*y, a))
+print(reduce(lambda x, y: x*y, a, 100)) # 초기값을 줄 수 있다
+```
+> 120  
+> 12000  
+
+**ex) reduce()를 사용하여 최댓값을 구할 수 있다**
+```python
+findMax = lambda x, y: x if x > y else y
+print(reduce(findMax, [1,9,4,2,5]))
+```
+> 9    
+
+
+
+# Counter
+동일한 값의 자료가 몇개 있는지 파악하기 위해 사용한다 
+```python
+from collections import Counter
+``` 
+- **collections.Counter()는 요소의 개수가 많은 것부터 출력한다**
+```python
+a = ['A', 'B', 'B', 'C', 'A', 'A']
+print(Counter(a))
+```
+> Counter({'A': 3, 'B': 2, 'C': 1})  
+- **입력은 값 = 갯수"의 형태로!!**
+- **elements()는 딕셔너리 형태의 Counter값을 풀어서 반환한다(단, 0이하의 값은 반환하지 않음)**
+- **update()는 값을 갱신할 수 있다**
+```python
+b = Counter(E = 2, F = 3, G = -1)
+print(b)
+print(list(b.elements()))
+print(b.update({'E' : 5, 'H' : 1}))
+```
+> Counter({'F': 3, 'E': 2, 'G': -1})  
+> ['E', 'E', 'F', 'F', 'F']  
+> Counter({'E': 7, 'F': 3, 'H': 1, 'G': -1})  
+- **문자열에도 사용 가능하다**
+- **빈도수가 높은 n개의 요소를 튜플 형태로 반환할 수 있다**
+- **subtract()로 요소를 뺄 수 있다(요소가 없는 경우는 음수 값이 출력됨)**
+```python
+a = Counter('aaaaabbbccd')
+b = Counter('aaabbbzzz')
+print('a: ', a, 'b: ', b)
+print(a.most_common(2))
+print(a.subtract(b))
+```
+> a: Counter({'a': 5, 'b': 3, 'c': 2, 'd': 1}) b: Counter({'a': 3, 'b': 3, 'z': 3})  
+> [('a', 5), ('b', 3)]  
+> Counter({'a': 2, 'c': 2, 'd': 1, 'b': 0, 'z': -3})  
+- **덧셈, 뺄셈, 교집합, 합집합**
+```python
+a = Counter('aaaaabbbccd')
+b = Counter('aaabbbzzz')
+
+print('덧셈:   ', a + b)
+print('뺄셈:   ', a - b)
+print('교집합: ', a & b)
+print('합집합: ', a | b)
+```
+> 덧셈:    Counter({'a': 8, 'b': 6, 'z': 3, 'c': 2, 'd': 1})  
+> 뺄셈:    Counter({'a': 2, 'c': 2, 'd': 1})  
+> 교집합:  Counter({'a': 3, 'b': 3})  
+> 합집합:  Counter({'a': 5, 'b': 3, 'z': 3, 'c': 2, 'd': 1})  
+
+

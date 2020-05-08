@@ -73,3 +73,18 @@ a.clear();  // ArrayList에 있는 모든 요소 삭제
 System.out.println(a);
 ```
 > []  
+
+#### 배열을 ArrayList로 바꾸기
+```java
+String[] arr = {"A", "B", "C"};
+ArrayList<String> arrList= new ArrayList<>(Arrays.asList(arr));
+System.out.println(arrList);
+```
+> [A, B, C]  
+
+#### ArrayList 자르기
+ArrayList.subList(fromIndex, toIndex)
+```java
+System.out.println(arrList.subList(1, 3));
+```
+> [B, C]  

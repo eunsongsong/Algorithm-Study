@@ -12,18 +12,18 @@ Java Eclipse
 ## 진행상황
 ### Python
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%201): 완료(39/39)  
-[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%202): 진행중(36/51)  
+[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%202): 완료(50/50)  
 [programmers Level 3](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%203): 진행중(7/41)  
 [programmers Level 4](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%204): 진행중(1/21)
 ### Java
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%201/src): 진행중(2/39)  
-[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%202/src): 진행중(1/53)  
+[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%202/src): 진행중(5/53)  
 ### MySQL
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/MySQL/programmers%20Level%201): 완료(10/10)  
 [programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/MySQL/programmers%20Level%202): 진행중(7/11)  
 ## 문제 모음
 ### 2020 KAKAO BLIND RECRUITMENT  
-문자열 압축 | 
+[문자열 압축](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%95%95%EC%B6%95.ipynb) | 
 [괄호 변환](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EA%B4%84%ED%98%B8%20%EB%B3%80%ED%99%98(%EC%9E%AC%EA%B7%80).ipynb) | 
 자물쇠와 열쇠 | 
 가사 검색 | 
