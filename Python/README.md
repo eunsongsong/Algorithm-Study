@@ -137,14 +137,14 @@ print(add(3,4))
 ```
 > 7
 
-### 자리수를 맞추어 정렬할 수 있다
+### 자릿수를 맞추어 정렬할 수 있다
 ```python
 numbers = [1,11,111,1111,10,100,101,110,1101,1110]
 
-print(' '.join(sorted((map(str, numbers)), key=lambda x:x*1))) # 1자리수까지 맞춤
-print(' '.join(sorted((map(str, numbers)), key=lambda x:x*2))) # 2자리수까지 맞춤
-print(' '.join(sorted((map(str, numbers)), key=lambda x:x*3))) # 3자리수까지 맞춤
-print(' '.join(sorted((map(str, numbers)), key=lambda x:x*4))) # 4자리수까지 맞춤
+print(' '.join(sorted((map(str, numbers)), key=lambda x:x*1))) # 1자릿수까지 맞춤
+print(' '.join(sorted((map(str, numbers)), key=lambda x:x*2))) # 2자릿수까지 맞춤
+print(' '.join(sorted((map(str, numbers)), key=lambda x:x*3))) # 3자릿수까지 맞춤
+print(' '.join(sorted((map(str, numbers)), key=lambda x:x*4))) # 4자릿수까지 맞춤
 ```
 > 1 10 100 101 11 110 1101 111 1110 1111  
 > 100 10 101 1 110 1101 1110 11 111 1111  
@@ -153,10 +153,10 @@ print(' '.join(sorted((map(str, numbers)), key=lambda x:x*4))) # 4자리수까�
 ```python
 numbers = ['0','01','001','0011','0101','011','1','11','111','1111','10','100','101','110','1101','1110']
 
-print(' '.join(sorted(numbers, key=lambda x:x*1))) # 1자리수까지 맞춤
-print(' '.join(sorted(numbers, key=lambda x:x*2))) # 2자리수까지 맞춤
-print(' '.join(sorted(numbers, key=lambda x:x*3))) # 3자리수까지 맞춤
-print(' '.join(sorted(numbers, key=lambda x:x*4))) # 4자리수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*1))) # 1자릿수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*2))) # 2자릿수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*3))) # 3자릿수까지 맞춤
+print(' '.join(sorted(numbers, key=lambda x:x*4))) # 4자수까지 맞춤
 ```
 > 0 001 0011 01 0101 011 1 10 100 101 11 110 1101 111 1110 1111  
 > 0 001 0011 01 0101 011 100 10 101 1 110 1101 1110 11 111 1111  
@@ -314,5 +314,28 @@ print('합집합: ', a | b)
 > 뺄셈:    Counter({'a': 2, 'c': 2, 'd': 1})  
 > 교집합:  Counter({'a': 3, 'b': 3})  
 > 합집합:  Counter({'a': 5, 'b': 3, 'z': 3, 'c': 2, 'd': 1})  
+
+
+
+# 문자열 자릿수 맞추기(zfill, rjust, format)  
+```python
+a = '1'
+
+print(a.zfill(3))
+print(a.rjust(5,'0'))
+print(a.ljust(5,'0'))
+print('%07d' % int(a))
+print("{0:=^10}".format("hi"))
+print("{0:*<10}".format("hi"))
+print("{0:*>10}".format("hi"))
+```
+> 001  
+> 00001  
+> 10000  
+> 0000001  
+> ====hi====  
+> hi********  
+> ********hi  
+
 
 

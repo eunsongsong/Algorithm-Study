@@ -40,9 +40,9 @@ Java Eclipse
 블록 게임  
 ### 2018 KAKAO BLIND RECRUITMENT [1차]
 [비밀지도](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EB%B9%84%EB%B0%80%EC%A7%80%EB%8F%84(%EC%9D%B4%EC%A7%84%EC%88%98%20%EB%B3%80%ED%99%98%2C%20%EC%9E%90%EB%A6%BF%EC%88%98%20%EB%A7%9E%EC%B6%94%EA%B8%B0).ipynb) | 
-[다트 게임](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EB%8B%A4%ED%8A%B8%20%EA%B2%8C%EC%9E%84(replace%2Cisdigit%2Cdialpha).ipynb) | 
+[다트 게임](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EB%8B%A4%ED%8A%B8%20%EA%B2%8C%EC%9E%84(replace%2Cisdigit%2Cisalpha).ipynb) | 
 [캐시](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EC%BA%90%EC%8B%9C(%ED%8E%98%EC%9D%B4%EC%A7%80%20%EA%B5%90%EC%B2%B4%20%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98(LRU)).ipynb) | 
-셔틀버스 | 
+[셔틀버스](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%203/%EC%85%94%ED%8B%80%EB%B2%84%EC%8A%A4(%EB%AC%B8%EC%9E%90%EC%97%B4%20%EC%9E%90%EB%A6%BF%EC%88%98%20%EB%A7%9E%EC%B6%94%EA%B8%B0(zfill%2C%20rjust%2C%20format)).ipynb) | 
 [뉴스 클러스터링](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%89%B4%EC%8A%A4%20%ED%81%B4%EB%9F%AC%EC%8A%A4%ED%84%B0%EB%A7%81(for%EB%AC%B8%20%EC%95%88%EC%97%90%20if%EB%AC%B8).ipynb) | 
 [프렌즈4블록](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%94%84%EB%A0%8C%EC%A6%884%EB%B8%94%EB%A1%9D.ipynb) | 
 추석 트래픽  
