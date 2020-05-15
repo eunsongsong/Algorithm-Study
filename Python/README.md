@@ -1,9 +1,22 @@
-# 힙(Heap)
+<details><summary>목차</summary>  
+    
+- [힙 Heap](#힙-heap)  
+- [특정 문자 찾기](#특정-문자-찾기)  
+- [zip(*iterable)](#zip)  
+- [map](#map)  
+- [lambda](#lambda)  
+- [순열, 조합, 곱집합](#순열-조합-곱집합)  
+- [누적 집계 (reduce)](#reduce)  
+- [동일한 값의 자료 개수 (Counter)](#counter)  
+- [문자열 자릿수 맞추기](#문자열-자릿수-맞추기)  
+
+</details>   
+
+# 힙 Heap
 * **최댓값, 최솟값**을 빠르게 찾기 위해 고안된 완전이진트리  
 (완전이진트리: 왼쪽 하단부터 차례로 노드를 채우는 트리)
 * 최대 힙(Max Heap): 부모 노드의 값이 자식 노드의 값보다 크다
-* 최소 힙(Min Heap): 부모 노드의 값이 자식 노드의 값보다 작다
-
+* 최소 힙(Min Heap): 부모 노드의 값이 자식 노드의 값보다 작다  
 # import heapq
 heapq 모듈은 최소 힙(Min Heap) 자료구조를 제공한다
 * **heapq.heapify(x)**:기존 리스트 x를 heap으로 변환  
@@ -73,7 +86,8 @@ print(s.endswith("d",1,4))
 
 
 
-# zip(*iterable)
+# zip
+### zip(*iterable)
 zip(*iterable)은 동일한 개수로 이루어진 자료형을 묶어 주는 역할을 하는 함수이다.  
 (여기서 사용한 *iterable은 반복 가능(iterable)한 자료형 여러 개를 입력할 수 있다는 의미이다.)
 
@@ -174,8 +188,8 @@ print(sorted(a, key = lambda x : (x[0], -x[1], x[2])))
 > [(1, 9, 2), (1, 9, 7), (1, 5, 5), (3, 7, 1), (3, 7, 5), (3, 3, 2), (5, 9, 2)]
 
 
-
-# import itertools, 순열, 조합, 곱집합
+# 순열 조합 곱집합
+### import itertools
 ```python
 import itertools
 ```
@@ -317,7 +331,8 @@ print('합집합: ', a | b)
 
 
 
-# 문자열 자릿수 맞추기(zfill, rjust, format)  
+# 문자열 자릿수 맞추기
+### zfill, rjust, format  
 ```python
 a = '1'
 
