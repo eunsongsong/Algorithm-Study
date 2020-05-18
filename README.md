@@ -28,7 +28,8 @@ Java Eclipse
 [완주하지 못한 선수](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/%EC%99%84%EC%A3%BC%ED%95%98%EC%A7%80%20%EB%AA%BB%ED%95%9C%20%EC%84%A0%EC%88%98.ipynb) | 
 [전화번호 목록](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%20%EB%AA%A9%EB%A1%9D(Hash%2C%20%ED%8A%B9%EC%A0%95%20%EB%AC%B8%EC%9E%90%20%EC%B0%BE%EA%B8%B0(startswith)).ipynb) | 
 [위장](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EC%9C%84%EC%9E%A5(reduce%2C%20Counter).ipynb) | 
-[베스트 앨범](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%203/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94(Hash%2C%20lambda).ipynb)  
+[베스트 앨범](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%203/%EB%B2%A0%EC%8A%A4%ED%8A%B8%EC%95%A8%EB%B2%94(Hash%2C%20lambda).ipynb) | 
+[호텔 방 배정(HashMap)](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%204/%ED%98%B8%ED%85%94%20%EB%B0%A9%20%EB%B0%B0%EC%A0%95(HashMap).ipynb)  
 #### 스택(Stack)/큐(Queue)
 [탑](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%ED%83%91.ipynb) | 
 [다리를 지나는 트럭](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%8B%A4%EB%A6%AC%EB%A5%BC%20%EC%A7%80%EB%82%98%EB%8A%94%20%ED%8A%B8%EB%9F%AD.ipynb) | 
@@ -39,10 +40,11 @@ Java Eclipse
 #### 힙(Heap)
 [더 맵게](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%8D%94%20%EB%A7%B5%EA%B2%8C(heap).ipynb) | 
 [라면공장](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%9D%BC%EB%A9%B4%EA%B3%B5%EC%9E%A5(heap).ipynb) | 
+[야근 지수](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%203/%EC%95%BC%EA%B7%BC%20%EC%A7%80%EC%88%98(Heap).ipynb) | 
 디스크 컨트롤러 | 
 이중우선순위큐
 #### 정렬(Sort)
-[K번째수](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%201) | 
+[K번째수](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%201/K%EB%B2%88%EC%A7%B8%EC%88%98(lambda%2Cmap).ipynb) | 
 [가장 큰 수](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EA%B0%80%EC%9E%A5%20%ED%81%B0%20%EC%88%98(%EC%9E%90%EB%A6%BF%EC%88%98%20%EA%B8%B0%EC%A4%80%20%EC%A0%95%EB%A0%AC%2C%20%EB%91%90%20%EB%B2%88%EC%A7%B8%20%EA%B8%B0%EC%A4%80%20%EC%A0%95%EB%A0%AC%2C%20lambda).ipynb) | 
 [H-Index](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/H-Index.ipynb)
 #### 완전탐색(Brute-force)
@@ -93,7 +95,7 @@ N으로 표현 |
 [고양이와 개는 몇 마리 있을까](https://github.com/eunsongsong/Algorithm-Study/blob/master/MySQL/programmers%20Level%202/%EA%B3%A0%EC%96%91%EC%9D%B4%EC%99%80%20%EA%B0%9C%EB%8A%94%20%EB%AA%87%20%EB%A7%88%EB%A6%AC%20%EC%9E%88%EC%9D%84%EA%B9%8C(GROUP%20BY).md) | 
 [동명 동물 수 찾기](https://github.com/eunsongsong/Algorithm-Study/blob/master/MySQL/programmers%20Level%202/%EB%8F%99%EB%AA%85%20%EB%8F%99%EB%AC%BC%20%EC%88%98%20%EC%B0%BE%EA%B8%B0(HAVING).md) | 
 [입양 시각 구하기(1)](https://github.com/eunsongsong/Algorithm-Study/blob/master/MySQL/programmers%20Level%202/%EC%9E%85%EC%96%91%20%EC%8B%9C%EA%B0%81%20%EA%B5%AC%ED%95%98%EA%B8%B0(1)(GROUP%20BY%2C%20HOUR(DATETIME)).md) | 
-[입양 시각 구하기(2)]()
+입양 시각 구하기(2)  
 #### IS NULL
 [이름이 없는 동물의 아이디](https://github.com/eunsongsong/Algorithm-Study/blob/master/MySQL/programmers%20Level%201/%EC%9D%B4%EB%A6%84%EC%9D%B4%20%EC%97%86%EB%8A%94%20%EB%8F%99%EB%AC%BC%EC%9D%98%20%EC%95%84%EC%9D%B4%EB%94%94(IS%20NULL).md) | 
 [이름이 있는 동물의 아이디](https://github.com/eunsongsong/Algorithm-Study/blob/master/MySQL/programmers%20Level%201/%EC%9D%B4%EB%A6%84%EC%9D%B4%20%EC%9E%88%EB%8A%94%20%EB%8F%99%EB%AC%BC%EC%9D%98%20%EC%95%84%EC%9D%B4%EB%94%94(IS%20NOT%20NULL).md) | 
@@ -164,8 +166,7 @@ DATETIME에서 DATE로 형 변환
 ### Summer/Winter Coding(2019)
 [멀쩡한 사각형](https://github.com/eunsongsong/Algorithm-Study/blob/master/Python/programmers%20Level%202/%EB%A9%80%EC%A9%A1%ED%95%9C%20%EC%82%AC%EA%B0%81%ED%98%95.ipynb) | 
 종이접기 | 
-지형 이동  
-##### SQL
-우유와 요거트가 담긴 장바구니
+지형 이동 | 
+우유와 요거트가 담긴 장바구니(SQL)
 
 
