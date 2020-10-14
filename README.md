@@ -11,9 +11,9 @@ Java Eclipse
 * [프로그래머스](https://programmers.co.kr/learn/challenges)
 ## 진행상황
 ### Python
-[programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%201): 완료(39/39)  
-[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%202): 완료(51/51)  
-[programmers Level 3](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%203): 진행중(10/41)  
+[programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%201): 완료(42/42)  
+[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%202): 완료(52/54)  
+[programmers Level 3](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%203): 진행중(10/40)  
 [programmers Level 4](https://github.com/eunsongsong/Algorithm-Study/tree/master/Python/programmers%20Level%204): 진행중(1/21)
 ### Java
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%201/src): 진행중(2/39)  
