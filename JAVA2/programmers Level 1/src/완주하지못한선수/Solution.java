@@ -1,4 +1,4 @@
-package ì™„ì£¼í•˜ì§€ëª»í•œì„ ìˆ˜;
+package ¿ÏÁÖÇÏÁö¸øÇÑ¼±¼ö;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -19,6 +19,6 @@ class Solution {
         		return participant[i];
         	}
         }
-        return participant[i]; // ë§ˆì§€ë§‰ ì„ ìˆ˜ê°€ ì™„ì£¼í•˜ì§€ ëª»í–ˆì„ ê²½ìš°
+        return participant[i]; // ¸¶Áö¸· ¼±¼ö°¡ ¿ÏÁÖÇÏÁö ¸øÇßÀ» °æ¿ì
     }
 }

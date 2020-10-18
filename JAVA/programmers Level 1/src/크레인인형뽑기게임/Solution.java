@@ -1,29 +1,29 @@
-package Å©·¹ÀÎÀÎÇü»Ì±â°ÔÀÓ;
+package í¬ë ˆì¸ì¸í˜•ë½‘ê¸°ê²Œì„;
 
 import java.util.ArrayList;
 
 class Solution {
-    public int solution(int[][] board, int[] moves) {
-        int answer = 0;
-        ArrayList<Integer> basket = new ArrayList<>(); // ÀÎÇüÀ» ´ãÀ» ¹Ù±¸´Ï
-        
-        for(int m : moves) { // movesÀÇ ¿ø¼Ò¸¦ ÇÑ ¹ø¾¿ °Ë»ç
-        	for(int i = 0 ; i < board.length; i++) {
-        		if(board[i][m-1] != 0) { // ÀÎÇüÀÌ ÀÖ´Â À§Ä¡¸¦ Ã£´Â´Ù
-        			basket.add(board[i][m-1]); // ÀÎÇüÀ» basket¿¡ ³Ö¾îÁÖ°í
-        			board[i][m-1] = 0; // ÀÎÇüÀÌ ÀÖ´ø À§Ä¡¸¦ 0À¸·Î ºñ¿öÁØ´Ù
-        			
-        			// °°Àº ¸ğ¾çÀÇ ÀÎÇüÀÌ µÎ °³ ¿¬¼ÓÀ¸·Î ÀÖ´ÂÁö Ã£´Â´Ù
-        			if(basket.size() > 1 && basket.get(basket.size()-1)==basket.get(basket.size()-2)) {
-        				answer += 2;
-        				basket.remove(basket.size()-1);
-        				basket.remove(basket.size()-1);
-        			}
-        			break;
-        		}
-        	}
-        }
-        
-        return answer;
-    }
+	public int solution(int[][] board, int[] moves) {
+		int answer = 0;
+		ArrayList<Integer> basket = new ArrayList<>(); // ì¸í˜•ì„ ë‹´ì„ ë°”êµ¬ë‹ˆ
+
+		for (int m : moves) { // movesì˜ ì›ì†Œë¥¼ í•œ ë²ˆì”© ê²€ì‚¬
+			for (int i = 0; i < board.length; i++) {
+				if (board[i][m - 1] != 0) { // ì¸í˜•ì´ ìˆëŠ” ìœ„ì¹˜ë¥¼ ì°¾ëŠ”ë‹¤
+					basket.add(board[i][m - 1]); // ì¸í˜•ì„ basketì— ë„£ì–´ì£¼ê³ 
+					board[i][m - 1] = 0; // ì¸í˜•ì´ ìˆë˜ ìœ„ì¹˜ë¥¼ 0ìœ¼ë¡œ ë¹„ì›Œì¤€ë‹¤
+
+					// ê°™ì€ ëª¨ì–‘ì˜ ì¸í˜•ì´ ë‘ ê°œ ì—°ì†ìœ¼ë¡œ ìˆëŠ”ì§€ ì°¾ëŠ”ë‹¤
+					if (basket.size() > 1 && basket.get(basket.size() - 1) == basket.get(basket.size() - 2)) {
+						answer += 2;
+						basket.remove(basket.size() - 1);
+						basket.remove(basket.size() - 1);
+					}
+					break;
+				}
+			}
+		}
+
+		return answer;
+	}
 }

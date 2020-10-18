@@ -1,4 +1,4 @@
-package ì™„ì£¼í•˜ì§€ëª»í•œì„ ìˆ˜;
+package ¿ÏÁÖÇÏÁö¸øÇÑ¼±¼ö;
 
 public class Test {
 
@@ -14,9 +14,9 @@ public class Test {
 		String p3[] = {"mislav", "stanko", "mislav", "ana"};
 		String c3[] = {"stanko", "ana", "mislav"};
 		
-		System.out.println(s.solution(p1, c1) == "leo");
-		System.out.println(s.solution(p2, c2) == "vinko");
-		System.out.println(s.solution(p3, c3) == "mislav");
+		System.out.println(s.solution(p1, c1) + " >> leo");
+		System.out.println(s.solution(p2, c2) + " >> vinko");
+		System.out.println(s.solution(p3, c3) + " >> mislav");
 
 	}
 }
