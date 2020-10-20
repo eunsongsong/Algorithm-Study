@@ -18,6 +18,9 @@ Java Eclipse
 ### Java
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%201/src): 진행중(2/39)  
 [programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%202/src): 진행중(5/53)  
+### JavaScript
+[programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%201/src): 진행중(22/42)  
+[programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/JAVA/programmers%20Level%202/src): 진행중(1/47)  
 ### MySQL
 [programmers Level 1](https://github.com/eunsongsong/Algorithm-Study/tree/master/MySQL/programmers%20Level%201): 완료(10/10)  
 [programmers Level 2](https://github.com/eunsongsong/Algorithm-Study/tree/master/MySQL/programmers%20Level%202): 진행중(7/11)  
