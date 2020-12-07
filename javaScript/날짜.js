@@ -8,8 +8,8 @@ const today = year + "-" + month + "-" + date;
 console.log(typeof date, date);
 console.log(typeof today);
 
-const a = new Date("2020-10-22");
-// console.log("날짜!!", todays_date, a);
+const a = new Date("2020-11-26");
+console.log("날짜!!", todays_date == a);
 const b = a - todays_date;
 console.log(typeof b);
 
@@ -41,3 +41,13 @@ console.log(test.sort((a, b) => (a > b ? 1 : -1)));
 
 // arr.map((item) => arr2[arr3.indexOf(item.b)].push(item));
 // console.log(arr2);
+
+// console.log("//");
+// const event = [];
+// event.push({ item: "item" });
+// console.log(event);
+
+console.log("////");
+const hi = new Date("2020-10-22");
+hi.setDate(hi.getDate() + 1);
+console.log(hi);
