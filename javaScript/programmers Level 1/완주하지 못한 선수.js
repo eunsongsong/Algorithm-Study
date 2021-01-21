@@ -1,3 +1,5 @@
+/* 문제 출처 https://programmers.co.kr/learn/courses/30/lessons/42576 */
+
 /* 시간 초과 */
 function solution2(participant, completion) {
   var answer = "";

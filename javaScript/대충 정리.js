@@ -22,5 +22,6 @@
 // console.log(a.reduce((a, b) => a + b));
 
 a = [1, 5, 3, 4];
-console.log(a.sort((a, b) => a - b).reverse());
-console.log(a.sort((a, b) => b - a));
+// console.log(a.sort((a, b) => a - b).reverse());
+// console.log(a.sort((a, b) => b - a));
+console.log(a.filter(a=>a===1));

@@ -1,3 +1,5 @@
+/* 문제 출처 https://programmers.co.kr/learn/courses/30/lessons/68644 */
+
 /* 문제 풀이 */
 function solution(numbers) {
   var answer = [];
