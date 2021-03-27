@@ -1,5 +1,6 @@
-### >> 문제: programmers L1 [동물의 아이디와 이름](https://programmers.co.kr/learn/courses/30/lessons/59403)
-**동동물 보호소에 들어온 모든 동물의 아이디와 이름을 ANIMAL_ID순으로 조회하는 SQL문을 작성해주세요.**   
+### >> 문제: programmers L1 [역순 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/59035)
+**동물 보호소에 들어온 모든 동물의 이름과 보호 시작일을 조회하는 SQL문을 작성해주세요.  
+이때, 결과는 ANIMAL_ID 역순으로 보여주세요.**   
 *출처: 프로그래머스 코딩 테스트 연습, https://programmers.co.kr/learn/challenges*   
 
 * ANIMAL_INS 테이블의 구조  
@@ -8,27 +9,25 @@ ANIMAL_ID, ANIMAL_TYPE, DATETIME, INTAKE_CONDITION, NAME, SEX_UPON_INTAKE는 각
 
 |NAME|TYPE|NULLABLE|
 |:---:|:---:|:---:|
-|ANIMAL_ID|VARCHAR(N)|FALSE| 
+|ANIMAL_ID|VARCHAR(N)|FALSE|
 |ANIMAL_TYPE|VARCHAR(N)|FALSE|
 |DATETIME|DATETIME|FALSE|
 |INTAKE_CONDITION|VARCHAR(N)|FALSE|
 |NAME|VARCHAR(N)|TRUE|
-|SEX_UPON_INTAKE|VARCHAR(n)|FALSE|
+|SEX_UPON_INTAKE|VARCHAR(N)|FALSE|
 
 ### >> 풀이
-```sql
-SELECT ANIMAL_ID, NAME
+```mysql
+SELECT NAME, DATETIME
 FROM ANIMAL_INS
-order by ANIMAL_ID
+ORDER BY ANIMAL_ID DESC;
 ```
 ### >> 실행 결과
-|ANIMAL_ID|NAME|
+|NAME|DATETIME|
 |:-:|:-:|
-|A349996|Sugar|
-|A350276|Jewel|
-|A350375|Meo|
-|A352555|Harley|
-|A352713|Gia|
-|A352872|Peanutbutter|
-|A353259|Bj|
+|Rocky|2016-06-07 09:17:00|
+|Shelly|2015-01-29 15:01:00|
+|Benji|2016-04-19 13:28:00|
+|Jackie|2016-01-03 16:25:00|
+|*Sam|2016-03-13 11:17:00|
 |...|...|
